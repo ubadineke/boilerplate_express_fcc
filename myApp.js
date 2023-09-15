@@ -2,7 +2,7 @@ let express = require('express');
 let app = express();
 
 
-app.get('/', (req, res, next) => {
+app.get('/', function (req, res){
     console.log("Hello Express")
 })
 
